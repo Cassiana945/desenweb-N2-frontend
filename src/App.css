@@ -1,0 +1,30 @@
+body {
+  background-color: #FEF4F4;
+}
+
+.home-container {
+  display: flex; /* Usando Flexbox para alinhar as divs lado a lado */
+  justify-content: space-around; /* Espaçamento entre os itens */
+  align-items: center; /* Alinhar verticalmente ao centro */
+  margin-top: 20px; /* Espaço no topo */
+}
+
+.home-item {
+  background-color: #194FA0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.home-item a {
+  text-decoration: none; /* Remover o sublinhado do link */
+  color:#FEF4F4; /* Cor do link */
+  font-weight: bold; /* Fonte em negrito */
+}
+
+.home-item a:hover {
+  color: #FEF4F4; /* Cor do link ao passar o mouse */
+}

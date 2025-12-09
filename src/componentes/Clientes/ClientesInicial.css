@@ -1,0 +1,137 @@
+.container {
+    background-color: #FEF4F4;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Altone', sans-serif;
+}
+
+.container-pesquisa-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-cadastro-lista {
+    display: flex;
+    gap: 190px;
+}
+
+.barra-pesquisa {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.barra-pesquisa input {
+    width: 200px;
+    padding: 8px;
+    border: 2px solid #194FA0;
+    border-radius: 5px;
+}
+
+.button-pesquisar {
+    padding: 8px 8px;
+    background-color: #194FA0;
+    color: #FEF4F4;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.barra-pesquisa button:hover {
+    background-color: #194FA0;
+}
+
+.cadastro-clientes {
+    background: #194FA0;
+    color: #FEF4F4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 370px;
+    height: 430px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.cadastro-clientes label {
+    display: block;
+    margin: 10px 10px 5px;
+}
+
+.cadastro-clientes input {
+    width: 95%;
+    height: 8%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.cadastro-clientes .container-botoes {
+    display: flex;
+    gap: 120px;
+    margin-top: 38px;
+}
+
+.cadastro-clientes button {
+    padding: 5px 16px;
+    background-color: #FEF4F4;
+    color: #194FA0;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.status {
+    font-family: 'Altone', sans-serif;
+    font-size: larger;
+    text-align: center;
+    color: #FEF4F4;
+    margin-top: 10px;
+}
+
+.tabela-clientes table {
+    font-family: Altone, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.tabela-clientes th {
+    color: #194FA0;
+
+}
+
+.tabela-clientes th,
+.tabela-clientes td {
+    border: 2px solid #194FA0;
+    text-align: left;
+    width: 200px; /* Aumenta a largura das células */
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #194FA0;
+    color: #FEF4F4;
+}
+
+td[colspan="4"] {
+    font-family: 'Altone', sans-serif;
+    font-size: larger;
+    text-align: left;
+    color: #194FA0;
+}
+

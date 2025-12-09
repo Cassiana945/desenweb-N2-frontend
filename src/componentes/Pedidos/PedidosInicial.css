@@ -1,0 +1,144 @@
+.container {
+  background-color: #FEF4F4;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  font-family: 'Altone', sans-serif;
+  }
+
+.container-pesquisa-cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-cadastro-lista {
+  display: flex;
+  gap: 190px;
+}
+
+  .dropdown {
+    display: flex;
+    gap: 10px;
+    align-items: center;  /* pode mudar */
+    justify-content: flex-start;  /* pode mudar */
+  }
+  
+  .dropdown input {
+    width: 240px;
+    padding: 8px;
+    border: 2px solid #194FA0;
+    border-radius: 5px;
+  }
+  
+  .dropdown .button-pesquisar {
+    padding: 8px 8px;
+    background-color: #194FA0;
+    color: #FEF4F4;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown .dropdown-menu {
+    border: 2px solid #194FA0;
+  }
+
+  .dropdown .dropdown-item {
+    color: #194FA0;
+    font-size: large;
+  }
+
+  .cadastro-pedidos {
+    background: #194FA0;
+    color: #FEF4F4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 370px;
+    height: 370px;
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+
+.titulo {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+  .cadastro-pedidos label {
+    display: block;
+    margin: 10px 10px 5px;
+  }
+  
+  .cadastro-pedidos input {
+    width: 95%;
+    height: 8%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .cadastro-pedidos .container-botoes {
+    display: flex;
+    gap: 120px;
+    margin-top: 38px;
+  }
+  
+  .cadastro-pedidos button {
+    padding: 5px 16px;
+    background-color: #FEF4F4;
+    color: #194FA0;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.status {
+  font-family: 'Altone', sans-serif;
+  font-size: larger;
+  text-align: center;
+  color: #FEF4F4;
+  margin-top: 10px;
+}
+  
+  .tabela-pedidos table {
+    font-family: Altone, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+.tabela-pedidos th {
+  color: #194FA0;
+}
+
+  .tabela-pedidos th,
+  .tabela-pedidos td {
+    border: 2px solid #194FA0;
+    text-align: left;
+    width: 200px;
+    padding: 8px;
+  }
+
+tr:nth-child(even) {
+  background-color: #194FA0;
+  color: #FEF4F4;
+}
+
+td[colspan="4"] {
+  font-family: 'Altone', sans-serif;
+  font-size: larger;
+  text-align: left;
+  color: #194FA0;
+}
+
+
+  
+
+  
